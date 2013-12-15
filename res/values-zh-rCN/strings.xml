@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 The KylinMod OpenSource Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources>
+    <string name="app_name">麒麟设置向导</string>
+
+    <string name="next">下一步</string>
+    <string name="continue_label">继续</string>
+    <string name="prev">上一步</string>
+    <string name="skip">跳过</string>
+    <string name="finish">完成</string>
+    <string name="cancel">取消</string>
+    <string name="create">创建</string>
+    <string name="login">登录</string>
+    <string name="ok">确定</string>
+    <string name="existing">使用已有账户登录</string>
+    <string name="new_account">创建新账户</string>
+    <string name="skip_anyway">总是跳过</string>
+    <string name="dont_skip">不要跳过</string>
+
+    <string name="setup_complete">设置完成</string>
+    <string name="setup_complete_summary">恭喜您！您的设备已设置完毕。</string>
+    <string name="setup_welcome">欢迎使用 KylinMod</string>
+    <string name="setup_welcome_summary">开始设置您的设备之前，请先选择语言并继续。</string>
+    <string name="setup_sim_missing">请插入 SIM 卡</string>
+    <string name="setup_google_account">Google 账户</string>
+    <string name="setup_location">位置信息设置</string>
+    <string name="setup_datetime">日期 &amp; 时间设置</string>
+    <string name="setup_current_date">当前日期</string>
+    <string name="setup_current_time">当前时间</string>
+    <string name="setup_inputmethod">输入法设置</string>
+    <string name="setup_inputmethod_summary">选择默认输入法</string>
+    <string name="setup_inputmethod_none">未安装任何输入法!</string>
+    <string name="setup_msg_no_network">警告：您将不能设置您的帐号</string>
+
+    <string name="sim_missing_summary">您需要参考设备附带的 SIM 卡说明。</string>
+    <string name="google_account_summary">您想设置一个 Google 帐户吗？</string>
+    <string name="btn_google_account">设置 Google 帐户</string>
+
+    <string name="location_access_title">访问我的位置</string>
+    <string name="location_access_summary">允许您批准的应用使用您的位置信息</string>
+    <string name="location_sources_heading">位置源</string>
+    <string name="location_gps">GPS 卫星</string>
+    <string name="location_street_level" product="tablet">允许应用使用平板上的 GPS 来定位您的位置</string>
+    <string name="location_street_level" product="default">允许应用使用手机上的 GPS 来定位您的位置</string>
+    <string name="location_network_based">Wi-Fi &amp; 移动网络位置</string>
+    <string name="location_neighborhood_level">允许应用使用 Google 的位置服务来快速的定位您的位置。匿名位置数据将被收集并发送至 Google。</string>
+</resources>

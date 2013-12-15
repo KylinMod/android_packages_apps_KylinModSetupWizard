@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 The KylinMod OpenSource Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="next">كېيىنكى</string>
+    <string name="continue_label">داۋاملاشتۇر</string>
+    <string name="prev">ئالدىنقى</string>
+    <string name="skip">ئاتلا</string>
+    <string name="finish">تامام</string>
+    <string name="cancel">ۋاز كەچ</string>
+    <string name="create">قۇر</string>
+    <string name="login">تىزىمغا كىرىڭ</string>
+    <string name="ok">جەزملە</string>
+    <string name="existing">مەۋجۇت ھېساباتتا تىزىمغا كىرىڭ</string>
+    <string name="new_account">يېڭى بىر ھېسابات قۇرۇڭ</string>
+    <string name="skip_anyway">ئاتلاۋەر</string>
+    <string name="dont_skip">ئاتلىما</string>
+
+    <string name="setup_complete">تەڭشەش تامام</string>
+    <string name="setup_complete_summary">مۇبارەك بولسۇن! ئۈسكۈنىڭىزنى ئىشلىتىشكە ھازىرلاندى.</string>
+    <string name="setup_welcome">KylinMod غا مەرھابا</string>
+    <string name="setup_welcome_summary">ئۈسكۈنىڭىزنى تەڭشەشتىن ئىلگىرى، تىلنى تاللاپ داۋاملاشتۇرۇڭ.</string>
+    <string name="setup_sim_missing">بىر SIM كارتا قىستۇرۇڭ</string>
+    <string name="setup_google_account">Google ھېسابات</string>
+    <string name="setup_location">ئورۇن تەڭشەكلەر</string>
+    <string name="setup_datetime">چېسلا ۋە ۋاقىت تەڭشىكى</string>
+    <string name="setup_current_date">نۆۋەتتىكى چېسلا</string>
+    <string name="setup_current_time">نۆۋەتتىكى ۋاقىت</string>
+    <string name="setup_msg_no_network">ئاگاھلاندۇرۇش: ھېساباتىڭىزنى تەڭشىيەلمەيسىز</string>
+
+    <string name="sim_missing_summary">ئۈسكۈنىڭىزنىڭ SIM كارتا چۈشەندۈرۈشىدىن پايدىلىنىڭ.</string>
+    <string name="google_account_summary">سىز Google ھېساباتىدىن بىرنى تەڭشەمسىز؟</string>
+    <string name="btn_google_account">Google ھېساباتى تەڭشىكى</string>
+
+    <string name="location_access_title">ئورۇن ئۇچۇرۇمنى زىيارەت قىلىشقا يول قويىدۇ</string>
+    <string name="location_access_summary">سىز يول قويغان ئەپلەرنىڭ ئورۇن ئۇچۇرىڭىزنى ئىشلىتىشىگە يول قويىدۇ</string>
+    <string name="location_sources_heading">ئورۇن مەنبەلىرى</string>
+    <string name="location_gps">GPS سۈنئىي ھەمراھ</string>
+    <string name="location_street_level" product="tablet">ئەپلەرنىڭ تاختا كومپيۇتېرىڭىزدىكى GPS نى ئىشلىتىپ ئورنىڭىزنى جەزملىشىگە يول قويىدۇ</string>
+    <string name="location_street_level" product="default">ئەپلەرنىڭ تېلېفونىڭىزدىكى GPS نى ئىشلىتىپ ئورنىڭىزنى جەزملىشىگە يول قويىدۇ</string>
+    <string name="location_network_based">كۆچمە ياكى Wi-Fi تورى ئورنى</string>
+    <string name="location_neighborhood_level">ئەپلەر Google ئورۇن مۇلازىمىتى ئارقىلىق تېخىمۇ تېز سۈرئەتتە تەخمىنىي ئورنىڭىزنى بىلەلەيدۇ. سىستېما ئاتسىز ئورۇن ئۇچۇرىنى توپلاپ Google غا يوللايدۇ.</string>
+</resources>

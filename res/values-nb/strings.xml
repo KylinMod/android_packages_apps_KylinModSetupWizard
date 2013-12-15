@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 The KylinMod OpenSource Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="next">Neste</string>
+    <string name="continue_label">Fortsett</string>
+    <string name="prev">Forrige</string>
+    <string name="skip">Hopp over</string>
+    <string name="finish">Fullfør</string>
+    <string name="cancel">Avbryt</string>
+    <string name="create">Lag ny</string>
+    <string name="login">Logg inn</string>
+    <string name="ok">OK</string>
+    <string name="existing">Logg inn på eksisterende konto</string>
+    <string name="new_account">Opprett en ny konto</string>
+    <string name="skip_anyway">Hopp over uansett</string>
+    <string name="dont_skip">Ikke hopp over</string>
+    <string name="setup_complete">Konfigureringen er ferdig</string>
+    <string name="setup_complete_summary">Gratulerer! Enheten er nå klar til bruk.</string>
+    <string name="setup_welcome">Velkommen til KylinMod</string>
+    <string name="setup_welcome_summary">For å komme i gang med å konfigurere enheten, velg språk og fortsett.</string>
+    <string name="setup_sim_missing">Sett inn SIM-kortet</string>
+    <string name="setup_google_account">Google-konto</string>
+    <string name="setup_location">Posisjonsinnstilinger</string>
+    <string name="setup_datetime">Dato &amp; tid</string>
+    <string name="setup_current_date">Dato</string>
+    <string name="setup_current_time">Tid</string>
+    <string name="setup_msg_no_network">ADVARSEL: Du vil ikke være i stand til å sette opp kontoene dine</string>
+    <string name="sim_missing_summary">Du må referere til SIM-kort instruksene som fulgte med enheten.</string>
+    <string name="google_account_summary">Ønsker du å sette opp en Google-konto?</string>
+    <string name="btn_google_account">Konfigurer Google-konto</string>
+    <string name="location_access_title">Tilgang til min posisjon</string>
+    <string name="location_access_summary">Tillat apper som har bedt om tillatelse til å bruke din stedsinformasjon</string>
+    <string name="location_sources_heading">Posisjonskilder</string>
+    <string name="location_gps">GPS-satelitter</string>
+    <string name="location_street_level" product="tablet">Tillat apper å bruke GPS på nettbrettet for å finne den eksakte posisjonen din</string>
+    <string name="location_street_level" product="default">Tillat apper å bruke GPS på telefonen for å finne den eksakte posisjonen din</string>
+    <string name="location_network_based">Wi-Fi- og mobilnettverksposisjon</string>
+    <string name="location_neighborhood_level">Tillat at apper bruker posisjonstjenesten fra Google til å finne posisjonen din raskere. Anonym posisjonsdata blir samlet inn og sendt til Google.</string>
+</resources>

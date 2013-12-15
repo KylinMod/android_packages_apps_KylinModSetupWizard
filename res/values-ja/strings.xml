@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 The KylinMod OpenSource Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="next">次へ</string>
+    <string name="continue_label">続ける</string>
+    <string name="prev">前へ</string>
+    <string name="skip">スキップ</string>
+    <string name="finish">完了</string>
+    <string name="cancel">キャンセル</string>
+    <string name="create">作成</string>
+    <string name="login">ログイン</string>
+    <string name="ok">OK</string>
+    <string name="existing">既存アカウントでログインする</string>
+    <string name="new_account">アカウントの新規作成</string>
+    <string name="skip_anyway">とにかくスキップする</string>
+    <string name="dont_skip">スキップしない</string>
+    <string name="setup_complete">セットアップが完了しました</string>
+    <string name="setup_complete_summary">おめでとうございます！ お使いのデバイスを楽しむ準備ができました。</string>
+    <string name="setup_welcome">KylinModへようこそ</string>
+    <string name="setup_welcome_summary">セットアップを開始します。お使いの言語を選択し「続ける」をタップしてください。</string>
+    <string name="setup_sim_missing">SIMカードを挿入してください</string>
+    <string name="setup_google_account">Google アカウント</string>
+    <string name="setup_location">位置情報の設定</string>
+    <string name="setup_datetime">日付 &amp; 時刻の設定</string>
+    <string name="setup_current_date">現在の日付</string>
+    <string name="setup_current_time">現在の時刻</string>
+    <string name="setup_msg_no_network">警告: アカウントのセットアップを実行できません</string>
+    <string name="sim_missing_summary">お使いのデバイスのSIMカード説明書を参照してください。</string>
+    <string name="google_account_summary">Google アカウントをセットアップしますか？</string>
+    <string name="btn_google_account">Google アカウントのセットアップ</string>
+    <string name="location_access_title">位置情報にアクセスする</string>
+    <string name="location_access_summary">アプリがあなたの位置情報にアクセスすることを許可する</string>
+    <string name="location_sources_heading">位置情報のソース</string>
+    <string name="location_gps">GPS衛星</string>
+    <string name="location_street_level" product="tablet">アプリがあなたの位置を特定するためにお使いのタブレットでGPSを使用することを許可する</string>
+    <string name="location_street_level" product="default">アプリがあなたの位置を特定するためにお使いの携帯電話でGPSを使用することを許可する</string>
+    <string name="location_network_based">Wi-Fi &amp; モバイルネットワーク</string>
+    <string name="location_neighborhood_level">アプリがあなたの場所が速く推定するためにGoogleの位置情報サービスを使用することを許可します。あなたの位置情報は匿名データとしてGoogleに送信されます。</string>
+</resources>

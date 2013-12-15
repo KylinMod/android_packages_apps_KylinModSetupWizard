@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 The KylinMod OpenSource Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="next">Següent</string>
+    <string name="continue_label">Continua</string>
+    <string name="prev">Anterior</string>
+    <string name="skip">Salta</string>
+    <string name="finish">Finalitza</string>
+    <string name="cancel">Cancel·la</string>
+    <string name="create">Crea</string>
+    <string name="login">Entra</string>
+    <string name="ok">Accepta</string>
+    <string name="existing">Entra a un compte existent</string>
+    <string name="new_account">Crea un nou compte</string>
+    <string name="skip_anyway">Salta de totes maneres</string>
+    <string name="dont_skip">No saltis</string>
+    <string name="setup_complete">Configuració completa</string>
+    <string name="setup_complete_summary" product="tablet">Felicitats! La teva tauleta està llesta per funcionar.</string>
+    <string name="setup_complete_summary" product="default">Felicitats! El teu telèfon està llest per funcionar.</string>
+    <string name="setup_welcome">Benvingut a KylinMod</string>
+    <string name="setup_welcome_summary" product="tablet">Per començar a configurar la teva tauleta, selecciona el teu idioma i continua.</string>
+    <string name="setup_welcome_summary" product="default">Per començar a configurar el teu telèfon, selecciona el teu idioma i continua.</string>
+    <string name="setup_sim_missing">Inserta una targeta SIM</string>
+    <string name="setup_google_account">Compte Google</string>
+    <string name="setup_location">Configuració d\'ubicació</string>
+    <string name="setup_datetime">Configuració de data &amp; hora</string>
+    <string name="setup_current_date">Data actual</string>
+    <string name="setup_current_time">Hora actual</string>
+    <string name="setup_msg_no_network">ALERTA: No podràs configurar els teus comptes</string>
+    <string name="setup_warning_skip_wifi" product="tablet">ALERTA: Podrien haver-hi càrrecs de dades adicionals per part de l\'operadora.\n\nLa configuració de la tauleta necessita una activitat de xarxa considerable.</string>
+    <string name="setup_warning_skip_wifi" product="default">ALERTA: Podrien haver-hi càrrecs de dades adicionals per part de l\'operadora.\n\nLa configuració del telèfon necessita una activitat de xarxa considerable.</string>
+    <string name="sim_missing_summary" product="tablet">Necessites consultar les instruccions de la targeta SIM que venien amb la teva tauleta.</string>
+    <string name="sim_missing_summary" product="default">Necessites consultar les instruccions de la targeta SIM que venien amb el teu telèfon.</string>
+    <string name="google_account_summary">Vols configurar un compte Google?</string>
+    <string name="btn_google_account">Configura un compte Google</string>
+    <string name="location_access_title">Accedeix a la meva ubicació</string>
+    <string name="location_access_summary">Permet apps que t\'han demanat permís per utilitzar la teva informació d\'ubicació</string>
+    <string name="location_sources_heading">Origens d\'ubicacions</string>
+    <string name="location_gps">Satèlits GPS</string>
+    <string name="location_street_level" product="tablet">Permet a les apps utilitzar el GPS de la tauleta per fixar la teva ubicació</string>
+    <string name="location_street_level" product="default">Permet a les apps utilitzar el GPS del telèfon per fixar la teva ubicació</string>
+    <string name="location_network_based">Ubicacions Wi-Fi &amp; xarxa mòbil</string>
+    <string name="location_neighborhood_level">Permet a les apps utilitzar el servei d\'ubicacions de Google per calcular més ràpid la teva ubicació. Dades d\'ubicació anonòmines seran recollides i enviades a Google.</string>
+</resources>
