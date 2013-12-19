@@ -16,7 +16,7 @@
 
 package com.kylinmod.setupwizard.ui;
 
-import com.kylinmod.setupwizard.MKSetupWizard;
+import com.kylinmod.setupwizard.KMSetupWizard;
 import com.kylinmod.setupwizard.R;
 import com.kylinmod.setupwizard.gcm.GCMUtil;
 import com.kylinmod.setupwizard.setup.AbstractSetupData;
