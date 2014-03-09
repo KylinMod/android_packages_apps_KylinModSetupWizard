@@ -14,7 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">KylinMod SetupWizard</string>
     <string name="product_name" translatable="false">KylinMod</string>
 
@@ -27,6 +27,7 @@
     <string name="create">Create</string>
     <string name="login">Login</string>
     <string name="ok">OK</string>
+    <string name="or">OR</string>
     <string name="existing">Log in to existing account</string>
     <string name="new_account">Create a new account</string>
     <string name="skip_anyway">Skip anyway</string>
