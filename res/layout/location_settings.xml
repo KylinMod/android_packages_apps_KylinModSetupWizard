@@ -19,14 +19,16 @@
 
     <LinearLayout
         android:orientation="vertical"
-        style="@style/SetupWizardPageContent">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/SetupWizardPageContent" >
 
         <TextView style="@style/SetupWizardPageTitle" />
 
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fillViewport="true">
+            android:fillViewport="true" >
 
             <LinearLayout
                 android:orientation="vertical"

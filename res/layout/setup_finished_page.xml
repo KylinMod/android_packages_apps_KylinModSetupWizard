@@ -19,6 +19,8 @@
 
     <LinearLayout
         android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         style="@style/SetupWizardPageContent">
 
         <TextView style="@style/SetupWizardPageTitle" />
@@ -37,6 +39,7 @@
                       android:layout_marginBottom="20dp"/>
 
                 <TextView
+                    android:id="@+id/setup_complete"
                     style="@style/SetupWizardPageSummary"
                     android:text="@string/setup_complete_summary" />
 

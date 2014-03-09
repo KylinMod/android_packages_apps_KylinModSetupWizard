@@ -49,7 +49,6 @@
 
         <activity android:name=".ui.SetupWizardActivity"
             android:label="@string/product_name"
-            android:theme="@style/Theme.KylinModSetupWizard.ActionBar.Overlay"
             android:launchMode="singleTop"
             android:excludeFromRecents="true"
             android:immersive="true" >

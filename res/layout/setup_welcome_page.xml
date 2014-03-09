@@ -30,6 +30,7 @@
               android:layout_marginBottom="5dp"/>
 
         <TextView
+                android:id="@+id/setup_summary"
                 style="@style/SetupWizardPageSummary"
                 android:text="@string/setup_welcome_summary" />
 
