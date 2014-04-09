@@ -31,7 +31,7 @@
     <string name="setup_complete">Configuración completada</string>
     <string name="setup_complete_summary" product="tablet">¡Felicidaes! La to tablet ta llista.</string>
     <string name="setup_complete_summary" product="default">¡Felicidaes! El to teléfonu ta llistu.</string>
-    <string name="setup_welcome">Bienllegáu a KylinMod</string>
+    <string name="setup_welcome">Bienllegáu a KylinMod OpenSource</string>
     <string name="setup_welcome_summary" product="tablet">Pa empezar a configurar la to tablet, seleiciona la llingua y toca en Siguiente.</string>
     <string name="setup_welcome_summary" product="default">Pa empezar a configurar el to teléfonu, seleiciona la llingua y toca en Siguiente.</string>
     <string name="setup_sim_missing">Inxertar tarxeta SIM</string>

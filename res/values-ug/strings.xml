@@ -31,7 +31,7 @@
 
     <string name="setup_complete">تەڭشەش تامام</string>
     <string name="setup_complete_summary">مۇبارەك بولسۇن! ئۈسكۈنىڭىزنى ئىشلىتىشكە ھازىرلاندى.</string>
-    <string name="setup_welcome">KylinMod غا مەرھابا</string>
+    <string name="setup_welcome">KylinMod OpenSource غا مەرھابا</string>
     <string name="setup_welcome_summary">ئۈسكۈنىڭىزنى تەڭشەشتىن ئىلگىرى، تىلنى تاللاپ داۋاملاشتۇرۇڭ.</string>
     <string name="setup_sim_missing">بىر SIM كارتا قىستۇرۇڭ</string>
     <string name="setup_google_account">Google ھېسابات</string>

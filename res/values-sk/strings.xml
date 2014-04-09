@@ -31,7 +31,7 @@
     <string name="dont_skip">Nepreskakovať</string>
     <string name="setup_complete">Nastavenie je dokončené</string>
     <string name="setup_complete_summary">Gratulujeme! Nastavenie Vášho zariadenia je dokončené.</string>
-    <string name="setup_welcome">Vitajte v KylinMod</string>
+    <string name="setup_welcome">Vitajte v KylinMod OpenSource</string>
     <string name="setup_welcome_summary">Pre nastavenie zariadenia prosím vyberte jazyk a pokračujte ďalej.</string>
     <string name="setup_sim_missing">Vložte SIM kartu</string>
     <string name="setup_google_account">Účet Google</string>

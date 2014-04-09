@@ -31,7 +31,7 @@
     <string name="setup_complete">Instellen is voltooid</string>
     <string name="setup_complete_summary" product="tablet">Gefeliciteerd! Uw tablet is gereed.</string>
     <string name="setup_complete_summary" product="default">Gefeliciteerd! Uw telefoon is gereed.</string>
-    <string name="setup_welcome">Welkom bij KylinMod</string>
+    <string name="setup_welcome">Welkom bij KylinMod OpenSource</string>
     <string name="setup_welcome_summary" product="tablet">Om te beginnen met het instellen van uw tablet, selecteert u uw taal.</string>
     <string name="setup_welcome_summary" product="default">Om te beginnen met het instellen van uw telefoon, selecteert u uw taal.</string>
     <string name="setup_sim_missing">Simkaart invoeren</string>

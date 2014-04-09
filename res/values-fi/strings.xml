@@ -30,7 +30,7 @@
     <string name="dont_skip">Älä ohita</string>
     <string name="setup_complete">Asennus on valmis</string>
     <string name="setup_complete_summary">Onnittelut! Laitteesi on valmis käyttöön.</string>
-    <string name="setup_welcome">Tervetuloa KylinModiin</string>
+    <string name="setup_welcome">Tervetuloa KylinMod OpenSourceiin</string>
     <string name="setup_welcome_summary">Valitse kieli jatkaaksesi laitteen valmistelua.</string>
     <string name="setup_sim_missing">Aseta SIM-kortti</string>
     <string name="setup_google_account">Google-tili</string>

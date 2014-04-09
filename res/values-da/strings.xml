@@ -31,7 +31,7 @@
     <string name="setup_complete">Installationen er færdig</string>
     <string name="setup_complete_summary" product="tablet">Tillykke! Din tablet er klar til kamp.</string>
     <string name="setup_complete_summary" product="default">Tillykke! Din telefon er klar til kamp.</string>
-    <string name="setup_welcome">Velkommen til KylinMod</string>
+    <string name="setup_welcome">Velkommen til KylinMod OpenSource</string>
     <string name="setup_welcome_summary" product="tablet">For at komme igang med opsætningen af ​​tabletten, skal du vælge dit sprog og fortsætte.</string>
     <string name="setup_welcome_summary" product="default">For at komme igang med opsætningen af ​​telefonen, skal du vælge dit sprog og fortsætte.</string>
     <string name="setup_sim_missing">Indsæt SIM-kortet</string>

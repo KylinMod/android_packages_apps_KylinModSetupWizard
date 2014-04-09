@@ -30,7 +30,7 @@
     <string name="dont_skip">Não saltar</string>
     <string name="setup_complete">A configuração está completa</string>
     <string name="setup_complete_summary">Parabéns! O seu dispositivo está pronto.</string>
-    <string name="setup_welcome">Bem-vindo à KylinMod</string>
+    <string name="setup_welcome">Bem-vindo à KylinMod OpenSource</string>
     <string name="setup_welcome_summary">Para começar a configurar o seu dispositivo, escolha o seu idioma e continue.</string>
     <string name="setup_sim_missing">Insira o cartão SIM</string>
     <string name="setup_google_account">Conta Google</string>

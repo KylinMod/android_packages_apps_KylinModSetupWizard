@@ -32,7 +32,7 @@
     <string name="setup_complete">Nastavení dokončeno</string>
     <string name="setup_complete_summary" product="tablet">Gratulujeme, Váš tablet je připraven.</string>
     <string name="setup_complete_summary" product="default">Gratulujeme, Váš telefon je připraven.</string>
-    <string name="setup_welcome">Vítá Vás KylinMod</string>
+    <string name="setup_welcome">Vítá Vás KylinMod OpenSource</string>
     <string name="setup_welcome_summary" product="tablet">Zvolte prosím jazyk a pokračujte nastavením tabletu.</string>
     <string name="setup_welcome_summary" product="default">Zvolte prosím jazyk a pokračujte nastavením telefonu.</string>
     <string name="setup_sim_missing">Vložit SIM kartu</string>

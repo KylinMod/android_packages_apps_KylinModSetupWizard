@@ -31,7 +31,7 @@
     <string name="setup_complete">Postavka je završena</string>
     <string name="setup_complete_summary" product="tablet">Čestitamo, vaš tablet je spreman</string>
     <string name="setup_complete_summary" product="default">Čestitamo, vaš telefon je spreman</string>
-    <string name="setup_welcome">Dobrodošli u KylinMod</string>
+    <string name="setup_welcome">Dobrodošli u KylinMod OpenSource</string>
     <string name="setup_welcome_summary" product="tablet">Da bi ste započeli konfiguraciju vašeg tableta, odaberite vaš jezik i nastavite.</string>
     <string name="setup_welcome_summary" product="default">Da bi ste započeli konfiguraciju vašeg telefona, odaberite vaš jezik i nastavite.</string>
     <string name="setup_sim_missing">Umetnite SIM karticu</string>

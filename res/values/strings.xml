@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">KylinMod SetupWizard</string>
-    <string name="product_name" translatable="false">KylinMod</string>
+    <string name="product_name" translatable="false">KylinMod OpenSource</string>
 
     <string name="next">Next</string>
     <string name="continue_label">Continue</string>
@@ -36,7 +36,7 @@
     <string name="setup_complete">Setup is complete</string>
     <string name="setup_complete_summary" product="tablet">Congratulations! Your tablet is ready to rumble.</string>
     <string name="setup_complete_summary" product="default">Congratulations! Your phone is ready to rumble.</string>
-    <string name="setup_welcome">Welcome to KylinMod</string>
+    <string name="setup_welcome">Welcome to KylinMod OpenSource</string>
     <string name="setup_welcome_summary" product="tablet">To get started setting up your tablet, select your language and continue.</string>
     <string name="setup_welcome_summary" product="default">To get started setting up your phone, select your language and continue.</string>
     <string name="setup_sim_missing">Insert SIM card</string>
@@ -48,6 +48,8 @@
     <string name="setup_inputmethod">Input method settings</string>
     <string name="setup_inputmethod_summary">Select the input method that you prefer</string>
     <string name="setup_inputmethod_none">No IME installed!</string>
+    <string name="setup_inputmethod_chinese">(Chinese Only)</string>
+    <string name="setup_inputmethod_multilingual">(Multilingual without Chinese)</string>
     <string name="setup_msg_no_network">WARNING: You won\'t be able to set up your accounts</string>
     <string name="setup_warning_skip_wifi" product="tablet">WARNING: You may incur extra carrier data charges.\n\nTablet setup can require significant network activity.</string>
     <string name="setup_warning_skip_wifi" product="default">WARNING: You may incur extra carrier data charges.\n\nPhone setup can require significant network activity.</string>

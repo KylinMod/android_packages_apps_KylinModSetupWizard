@@ -31,7 +31,7 @@
     <string name="setup_complete">Configuración completada</string>
     <string name="setup_complete_summary" product="tablet">¡Felicidades! Tu tablet está listo.</string>
     <string name="setup_complete_summary" product="default">¡Felicidades! Tu teléfono está listo.</string>
-    <string name="setup_welcome">Bienvenido a KylinMod</string>
+    <string name="setup_welcome">Bienvenido a KylinMod OpenSource</string>
     <string name="setup_welcome_summary" product="tablet">Para empezar a configurar tu tablet, selecciona el lenguaje y toca en Siguiente.</string>
     <string name="setup_welcome_summary" product="default">Para empezar a configurar tu teléfono, selecciona el lenguaje y toca en Siguiente.</string>
     <string name="setup_sim_missing">Insertar tarjeta SIM</string>

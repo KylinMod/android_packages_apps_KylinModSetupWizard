@@ -32,7 +32,7 @@
     <string name="dont_skip">不要略過</string>
     <string name="setup_complete">設定已完成</string>
     <string name="setup_complete_summary">恭喜！您的裝置已準備翻滾一番。</string>
-    <string name="setup_welcome">歡迎加入 KylinMod</string>
+    <string name="setup_welcome">歡迎加入 KylinMod OpenSource</string>
     <string name="setup_welcome_summary">要開始設定您的裝置，請選擇您的語言然後繼續。</string>
     <string name="setup_sim_missing">請插入 SIM 卡</string>
     <string name="setup_google_account">Google 帳戶</string>

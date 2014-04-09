@@ -34,7 +34,7 @@
 
     <string name="setup_complete">设置完成</string>
     <string name="setup_complete_summary">恭喜您！您的设备已设置完毕。</string>
-    <string name="setup_welcome">欢迎使用 KylinMod</string>
+    <string name="setup_welcome">欢迎使用 KylinMod OpenSource</string>
     <string name="setup_welcome_summary">开始设置您的设备之前，请先选择语言并继续。</string>
     <string name="setup_sim_missing">请插入 SIM 卡</string>
     <string name="setup_google_account">Google 账户</string>
@@ -45,6 +45,8 @@
     <string name="setup_inputmethod">输入法设置</string>
     <string name="setup_inputmethod_summary">选择默认输入法</string>
     <string name="setup_inputmethod_none">未安装任何输入法!</string>
+    <string name="setup_inputmethod_chinese">(仅支持中英文输入)</string>
+    <string name="setup_inputmethod_multilingual">(多语种支持但不包括中文)</string>
     <string name="setup_msg_no_network">警告：您将不能设置您的帐号</string>
 
     <string name="sim_missing_summary">您需要参考设备附带的 SIM 卡说明。</string>

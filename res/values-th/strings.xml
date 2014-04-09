@@ -31,7 +31,7 @@
   <string name="setup_complete">การตั้งค่าเรียบร้อย</string>
   <string name="setup_complete_summary" product="tablet">ยินดีด้วย! แท็ปเล็ตของคุณพร้อมที่จะใช้งานแล้ว</string>
   <string name="setup_complete_summary" product="default">ยินดีด้วย! โทรศัพท์ของคุณพร้อมที่จะใช้งานแล้ว</string>
-  <string name="setup_welcome">ยินดีต้อนรับเข้าสู่ KylinMod</string>
+  <string name="setup_welcome">ยินดีต้อนรับเข้าสู่ KylinMod OpenSource</string>
   <string name="setup_welcome_summary" product="tablet">เพื่อเริ่มการตั้งค่าแท็บเล็ตของคุณ, เลือกภาษาและดำเนินการต่อ</string>
   <string name="setup_welcome_summary" product="default">เพื่อเริ่มการตั้งค่าโทรศัพท์มือถือของคุณ, เลือกภาษาและดำเนินการต่อ</string>
   <string name="setup_sim_missing">กรุณาใส่ซิมการ์ด</string>
