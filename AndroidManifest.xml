@@ -51,7 +51,8 @@
             android:label="@string/product_name"
             android:launchMode="singleTop"
             android:excludeFromRecents="true"
-            android:immersive="true" >
+            android:immersive="true"
+            android:screenOrientation="locked" >
 
                 <intent-filter android:priority="9" >
 
