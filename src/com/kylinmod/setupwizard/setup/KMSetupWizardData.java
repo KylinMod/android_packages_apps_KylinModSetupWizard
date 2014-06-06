@@ -31,6 +31,7 @@ public class KMSetupWizardData extends AbstractSetupData {
         return new PageList(new WelcomePage(mContext, this, R.string.setup_welcome),
                new GoogleAccountPage(mContext, this, R.string.setup_google_account),
                new LocationSettingsPage(mContext, this, R.string.setup_location),
+               new PersonalizationPage(mContext, this, R.string.setup_personalization),
                new DateTimePage(mContext, this, R.string.setup_datetime),
                new InputMethodPage(mContext, this, R.string.setup_inputmethod),
                new FinishPage(mContext, this, R.string.setup_complete)

@@ -18,6 +18,7 @@ package com.kylinmod.setupwizard.setup;
 
 import com.kylinmod.setupwizard.R;
 import com.kylinmod.setupwizard.ui.SetupPageFragment;
+import com.kylinmod.setupwizard.ui.SetupWizardActivity;
 
 import android.app.Fragment;
 import android.content.Context;

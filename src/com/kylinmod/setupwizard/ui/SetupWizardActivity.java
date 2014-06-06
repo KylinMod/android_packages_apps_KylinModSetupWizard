@@ -16,26 +16,26 @@
 
 package com.kylinmod.setupwizard.ui;
 
+import android.accounts.*;
+import android.content.pm.ThemeUtils;
+import android.content.res.ThemeManager;
+import android.content.res.ThemeManager.ThemeChangeListener;
 import com.kylinmod.setupwizard.KMSetupWizard;
 import com.kylinmod.setupwizard.R;
 import com.kylinmod.setupwizard.gcm.GCMUtil;
-import com.kylinmod.setupwizard.setup.AbstractSetupData;
-import com.kylinmod.setupwizard.setup.KMSetupWizardData;
-import com.kylinmod.setupwizard.setup.Page;
-import com.kylinmod.setupwizard.setup.PageList;
-import com.kylinmod.setupwizard.setup.SetupDataCallbacks;
+import com.kylinmod.setupwizard.setup.*;
 import com.kylinmod.setupwizard.util.KMAccountUtils;
 import com.kylinmod.setupwizard.util.EnableAccessibilityController;
 
-import android.accounts.AccountManager;
-import android.accounts.AccountManagerCallback;
-import android.accounts.AccountManagerFuture;
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.AppGlobals;
+import android.app.Dialog;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.content.ComponentName;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
@@ -47,19 +47,24 @@ import android.os.UserManager;
 import android.provider.Settings;
 import android.support.v13.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 
+import java.io.IOException;
 import java.util.List;
 
-public class SetupWizardActivity extends Activity implements SetupDataCallbacks {
+public class SetupWizardActivity extends Activity implements SetupDataCallbacks,
+    ThemeChangeListener {
 
     private static final String TAG = SetupWizardActivity.class.getSimpleName();
 
     private static final String GOOGLE_SETUPWIZARD_PACKAGE = "com.google.android.setupwizard";
     private static final String KEY_SIM_MISSING_SHOWN = "sim-missing-shown";
     private static final String KEY_G_ACCOUNT_SHOWN = "g-account-shown";
+
+    private static final int DIALOG_FINISHING = 1;
 
     private ViewPager mViewPager;
     private KMPagerAdapter mPagerAdapter;
@@ -74,6 +79,8 @@ public class SetupWizardActivity extends Activity implements SetupDataCallbacks 
     private final Handler mHandler = new Handler();
 
     private SharedPreferences mSharedPreferences;
+    private boolean mSetupComplete = false;
+    private boolean mGoogleAccountSetupComplete = false;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -155,6 +162,20 @@ public class SetupWizardActivity extends Activity implements SetupDataCallbacks 
     }
 
     @Override
+    protected Dialog onCreateDialog(int id, Bundle args) {
+        switch (id) {
+            case DIALOG_FINISHING:
+                return new AlertDialog.Builder(this)
+                        .setTitle(R.string.setup_finalizing)
+                        .setCancelable(false)
+                        .setView(getLayoutInflater().inflate(R.layout.setup_finalizing, null))
+                        .create();
+            default:
+                return super.onCreateDialog(id, args);
+        }
+    }
+
+    @Override
     public void onBackPressed() {
         doPrevious();
     }
@@ -213,14 +234,6 @@ public class SetupWizardActivity extends Activity implements SetupDataCallbacks 
                 mPagerAdapter.notifyDataSetChanged();
             }
         }
-        if (page.getId() == R.string.setup_google_account) {
-            // Only auto show the google account setup once.
-            boolean shown = mSharedPreferences.getBoolean(KEY_G_ACCOUNT_SHOWN, false);
-            if (!shown) {
-                mSharedPreferences.edit().putBoolean(KEY_G_ACCOUNT_SHOWN, true).commit();
-                launchGoogleAccountSetup();
-            }
-        }
         updateNextPreviousState();
     }
 
@@ -238,6 +251,11 @@ public class SetupWizardActivity extends Activity implements SetupDataCallbacks 
     }
 
     @Override
+    public Page getPage(int key) {
+        return mSetupData.findPage(key);
+    }
+
+    @Override
     public void onPageFinished(final Page page) {
         mHandler.post(new Runnable() {
             @Override
@@ -247,10 +265,8 @@ public class SetupWizardActivity extends Activity implements SetupDataCallbacks 
                 } else {
                     switch (page.getId()) {
                         case R.string.setup_google_account:
-                            removeSetupPage(page, false);
-                            if (accountExists(KMSetupWizard.ACCOUNT_TYPE_GOOGLE)) {
-                                Page locationPage = getPage(getString(R.string.setup_location));
-                                removeSetupPage(locationPage, false);
+                            if (mGoogleAccountSetupComplete) {
+                                removeSetupPage(page, false);
                             }
                             break;
                     }
@@ -286,6 +302,11 @@ public class SetupWizardActivity extends Activity implements SetupDataCallbacks 
             removeSetupPage(page, false);
             pagesRemoved = true;
         }
+        page = mPageList.findPage(R.string.setup_personalization);
+        if (page != null && PersonalizationPage.skipPage(this)) {
+            removeSetupPage(page, false);
+            pagesRemoved = true;
+        }
         if (pagesRemoved) {
             onPageTreeChanged();
         }
@@ -311,29 +332,77 @@ public class SetupWizardActivity extends Activity implements SetupDataCallbacks 
             @Override
             public void run(AccountManagerFuture<Bundle> bundleAccountManagerFuture) {
                 if (isDestroyed()) return; //There is a change this activity has been torn down.
-                Page page = mPageList.findPage(R.string.setup_google_account);
-                if (page != null) {
-                    onPageFinished(page);
+                String token = null;
+                try {
+                    token = bundleAccountManagerFuture.getResult().getString(AccountManager.KEY_AUTHTOKEN);
+                    mGoogleAccountSetupComplete = true;
+                    Page page = mPageList.findPage(R.string.setup_google_account);
+                    if (page != null) {
+                        onPageFinished(page);
+                    }
+                } catch (OperationCanceledException e) {
+                } catch (IOException e) {
+                } catch (AuthenticatorException e) {
                 }
+
             }
         }, null);
     }
 
     private void finishSetup() {
+        if (mSetupComplete) return;
+        mSetupComplete = true;
+        boolean applyingDefaultTheme = handleDefaultThemeSetup();
+
         Settings.Global.putInt(getContentResolver(), Settings.Global.DEVICE_PROVISIONED, 1);
         Settings.Secure.putInt(getContentResolver(), Settings.Secure.USER_SETUP_COMPLETE, 1);
         UserManager.get(this).setUserName(UserHandle.myUserId(), getString(com.android.internal.R.string.owner_name));
         ((KMSetupWizard) AppGlobals.getInitialApplication()).enableStatusBar();
-        Intent intent = new Intent("android.intent.action.MAIN");
-        intent.addCategory("android.intent.category.HOME");
-        disableSetupWizards(intent);
-        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | intent.getFlags());
-        startActivity(intent);
-        finish();
+        if (!applyingDefaultTheme)  {
+            finalizeSetup();
+        } else {
+            showDialog(DIALOG_FINISHING);
+        }
     }
 
     private boolean accountExists(String accountType) {
         return AccountManager.get(this).getAccountsByType(accountType).length > 0;
+    }
+
+    private boolean handleDefaultThemeSetup() {
+        Page page = getPage(R.string.setup_personalization);
+        if (page == null) {
+            return false;
+        }
+        Bundle privacyData = page.getData();
+        if (privacyData != null && privacyData.getBoolean("apply_default_theme")) {
+            Log.d(TAG, "Applying default theme");
+            ThemeManager tm = (ThemeManager) this.getSystemService(Context.THEME_SERVICE);
+            tm.addClient(ThemeUtils.getDefaultThemePackageName(this), this);
+            tm.applyDefaultTheme();
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    public void onProgress(int progress) {}
+
+    @Override
+    public void onFinish(boolean isSuccess) {
+        removeDialog(DIALOG_FINISHING);
+        ThemeManager tm = (ThemeManager) this.getSystemService(Context.THEME_SERVICE);
+        tm.removeClient(ThemeUtils.getDefaultThemePackageName(this));
+        finalizeSetup();
+    }
+
+    private void finalizeSetup() {
+        Intent intent = new Intent(Intent.ACTION_MAIN);
+        intent.addCategory(Intent.CATEGORY_HOME);
+        disableSetupWizards(intent);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent);
+        finish();
     }
 
     private class KMPagerAdapter extends FragmentStatePagerAdapter {
