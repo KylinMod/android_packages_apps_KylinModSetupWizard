@@ -32,7 +32,7 @@
   <string name="setup_complete">Настройка завершена</string>
   <string name="setup_complete_summary" product="tablet">Поздравляем! Ваш планшет готов к использованию.</string>
   <string name="setup_complete_summary" product="default">Поздравляем! Ваш телефон готов к использованию.</string>
-  <string name="setup_welcome">Привет!</string>
+  <string name="setup_welcome">Добро пожаловать в KylinMod OpenSource</string>
   <string name="setup_welcome_summary" product="tablet">Для начала настройки планшета выберите язык и нажмите «Далее».</string>
   <string name="setup_welcome_summary" product="default">Для начала настройки телефона выберите язык и нажмите «Далее».</string>
   <string name="setup_sim_missing">Вставьте SIM-карту</string>
@@ -44,6 +44,7 @@
   <string name="setup_msg_no_network">ВНИМАНИЕ: настройка учётных записей будет невозможна</string>
   <string name="setup_warning_skip_wifi" product="tablet">ВНИМАНИЕ: возможны нежелательные расходы при использовании мобильного интернета.\n\nНастройка планшета может потребовать значительной сетевой активности.</string>
   <string name="setup_warning_skip_wifi" product="default">ВНИМАНИЕ: возможны нежелательные расходы при использовании мобильного интернета.\n\nНастройка телефона может потребовать значительной сетевой активности.</string>
+  <string name="setup_privacy">Конфиденциальность</string>
   <string name="setup_personalization">Персонализация</string>
   <string name="setup_finalizing">Завершение настройки\u2026</string>
   <string name="sim_missing_summary" product="tablet">Обратитесь к инструкции по установке SIM-карты для вашего планшета.</string>
@@ -60,4 +61,6 @@
   <string name="location_street_level" product="default">Разрешить приложениям использовать GPS на вашем телефоне для определения местоположения</string>
   <string name="location_network_based">По координатам сети</string>
   <string name="location_neighborhood_level">Разрешить приложениям использовать службы позиционирования Google для быстрого определения вашего местоположения.</string>
+  <string name="update_icon_pack_available">Доступен обновлённый набор значков</string>
+  <string name="apply_icon_pack">Применить</string>
 </resources>

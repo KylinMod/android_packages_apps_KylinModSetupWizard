@@ -44,6 +44,7 @@
   <string name="setup_msg_no_network">אזהרה: אתה לא תוכל להגדיר את החשבונות שלך</string>
   <string name="setup_warning_skip_wifi" product="tablet">אזהרה: אתה יכול לקבל תשלום גדול יותר מהספק שלך.\n\nהגדרת טאבלט יכולה לדרוש הרבה פעילות ברשת.</string>
   <string name="setup_warning_skip_wifi" product="default">אזהרה: אתה יכול לקבל תשלום גדול יותר מהספק שלך.\n\nהגדרת טאבלט יכולה לדרוש הרבה פעילות ברשת.</string>
+  <string name="setup_privacy">הגדרות פרטיות</string>
   <string name="setup_personalization">התאם</string>
   <string name="setup_finalizing">סיום ההתקנה\u2026</string>
   <string name="sim_missing_summary" product="tablet">צריך לפנות להגדרות כרטיס ה-SIM שלך שבאו עם הטאבלט.</string>
@@ -60,4 +61,6 @@
   <string name="location_street_level" product="default">אפשר אפליקציות להשתמש ב-GPS על הטאבלט כדי לאתר את מיקומך המדויק</string>
   <string name="location_network_based">מיקום רשת Wi-Fi &amp; רשת לנייד</string>
   <string name="location_neighborhood_level">‏אפשר לאפליקציות להשתמש בשירות המיקום של Google כדי להעריך את מיקומך מהר יותר. נתוני מיקום אנונימיים ייאספו ויישלחו אל Google.</string>
+  <string name="update_icon_pack_available">ערכת סמלים מעודכנת זמינה</string>
+  <string name="apply_icon_pack">החל</string>
 </resources>

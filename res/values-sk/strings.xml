@@ -44,6 +44,7 @@
   <string name="setup_msg_no_network">VAROVANIE: Nebudete môcť nastaviť svoje účty</string>
   <string name="setup_warning_skip_wifi" product="tablet">UPOZORNENIE: Toto nastavenie môže spôsobiť zvýšené poplatky za dátové prenosy.\n\nNastavenie tabletu môže vyžadovať zvýšený prenos dát.</string>
   <string name="setup_warning_skip_wifi" product="default">VAROVANIE: Môžu sa vyskytnúť ďalšie dátové poplatky u operátora.\n\nNastavenie telefónu môže vyžadovať značnú aktivitu v sieti.</string>
+  <string name="setup_privacy">Nastavenia súkromia</string>
   <string name="setup_personalization">Prispôsobenie</string>
   <string name="setup_finalizing">Dokončovanie nastavovania\u2026</string>
   <string name="sim_missing_summary" product="tablet">Prosím, prečítajte si pokyny pre kartu SIM, ktoré boli dodané s vaším tabletom.</string>
@@ -60,4 +61,6 @@
   <string name="location_street_level" product="default">Povoliť aplikáciám používať GPS na Vašom telefóne pre určenie vašej polohy</string>
   <string name="location_network_based">Poloha založená na využití Wi-Fi \u0026 mobilnej sieti</string>
   <string name="location_neighborhood_level">Povoliť aplikáciám používať lokalizačnú službu od spoločnosti Google na rýchlejšie zistenie vašej polohy. Anonymné údaje o polohe budú zhromaždené a odosielané do spoločnosti Google.</string>
+  <string name="update_icon_pack_available">Aktualizovaný balík ikon je k dispozícii</string>
+  <string name="apply_icon_pack">Použiť</string>
 </resources>

@@ -44,6 +44,7 @@
   <string name="setup_msg_no_network">DĖMESIO: Jūs negalėsite konfigūruoti savo paskyrų</string>
   <string name="setup_warning_skip_wifi" product="tablet">ĮSPĖJIMAS: Gali reikėti papildomų duomenų mokesčių.\n\nPlanšetinio kompiuterio nustatymas gali reikalauti svarbios tinklo veiklos.</string>
   <string name="setup_warning_skip_wifi" product="default">ĮSPĖJIMAS: Gali reikėti papildomų duomenų mokesčių.\n\nTelefono nustatymas gali reikalauti svarbios tinklo veiklos.</string>
+  <string name="setup_privacy">Privatumo nustatymai</string>
   <string name="setup_personalization">Personalizuoti</string>
   <string name="setup_finalizing">Sąranka užbaigiama\u2026</string>
   <string name="sim_missing_summary" product="tablet">Jums reikia kreiptis į SIM kortelės instrukcijas kuri atėjo kartu su planšetiniu kompiuteriu.</string>
@@ -60,4 +61,6 @@
   <string name="location_street_level" product="default">Leisti programoms naudoti jūsų telefono GPS tam, kad nustatyti jūsų vietovę</string>
   <string name="location_network_based">„Wi-Fi“ ir mobiliojo ryšio tinklo vieta</string>
   <string name="location_neighborhood_level">Leisti programoms naudoti „Google“ vietos paslaugai įvertinti jūsų buvimo vietą greičiau. Anoniminiai vietovės nustatymo duomenys bus renkami ir siunčiami į „Google“.</string>
+  <string name="update_icon_pack_available">Galimas piktogramų paketo atnaujinimas</string>
+  <string name="apply_icon_pack">Taikyti</string>
 </resources>

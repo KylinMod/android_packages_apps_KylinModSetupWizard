@@ -81,6 +81,7 @@ public class SetupWizardActivity extends Activity implements SetupDataCallbacks,
     private SharedPreferences mSharedPreferences;
     private boolean mSetupComplete = false;
     private boolean mGoogleAccountSetupComplete = false;
+    private boolean mTriedEnablingWifiOnce;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -139,7 +140,7 @@ public class SetupWizardActivity extends Activity implements SetupDataCallbacks,
     protected void onResume() {
         super.onResume();
         onPageTreeChanged();
-        if (!KMAccountUtils.isNetworkConnected(this)) {
+        if (!KMAccountUtils.isNetworkConnected(this) && mTriedEnablingWifiOnce) {
             KMAccountUtils.tryEnablingWifi(this);
         }
     }
@@ -186,10 +187,16 @@ public class SetupWizardActivity extends Activity implements SetupDataCallbacks,
             public void run() {
                 final int currentItem = mViewPager.getCurrentItem();
                 final Page currentPage = mPageList.get(currentItem);
-                if (currentPage.getId() == R.string.setup_complete) {
-                    finishSetup();
-                } else {
-                    mViewPager.setCurrentItem(currentItem + 1, true);
+
+                switch (currentPage.getId()) {
+                    case R.string.setup_complete:
+                        finishSetup();
+                        break;
+                    case R.string.setup_welcome:
+                        onPageFinished(currentPage);
+                        // fall through
+                    default:
+                        mViewPager.setCurrentItem(currentItem + 1, true);
                 }
             }
         });
@@ -264,6 +271,12 @@ public class SetupWizardActivity extends Activity implements SetupDataCallbacks,
                     doNext();
                 } else {
                     switch (page.getId()) {
+                        case R.string.setup_welcome:
+                            if (!mTriedEnablingWifiOnce) {
+                                mTriedEnablingWifiOnce = true;
+                                KMAccountUtils.launchWifiSetup(SetupWizardActivity.this);
+                            }
+                            break;
                         case R.string.setup_google_account:
                             if (mGoogleAccountSetupComplete) {
                                 removeSetupPage(page, false);

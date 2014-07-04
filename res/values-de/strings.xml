@@ -44,6 +44,7 @@
   <string name="setup_msg_no_network">WARNUNG: Sie werden nicht imstande sein, Ihr Konto erfolgreich einzurichten</string>
   <string name="setup_warning_skip_wifi" product="tablet">WARNUNG: Die Kontoeinrichtung kann beträchtliche Netzaktivität mit sich bringen, wodurch Kosten bei Ihrem Mobilnetzbetreiber entstehen können.</string>
   <string name="setup_warning_skip_wifi" product="default">WARNUNG: Die Kontoeinrichtung kann beträchtliche Netzaktivität mit sich bringen, wodurch Kosten bei Ihrem Mobilnetzbetreiber entstehen können.</string>
+  <string name="setup_privacy">Privatsphären-Einstellungen</string>
   <string name="setup_personalization">Personalisieren</string>
   <string name="setup_finalizing">Einrichtung wird abgeschlossen\u2026</string>
   <string name="sim_missing_summary" product="tablet">Hinweise zum Einsetzen der SIM-Karte erhalten Sie in der Bedienungsanleitung Ihres Tablets.</string>
@@ -60,4 +61,6 @@
   <string name="location_street_level" product="default">Apps dürfen meinen Standort mithilfe von GPS auf meinem Telefon bestimmen</string>
   <string name="location_network_based">WLAN- &amp; Mobilfunknetz-Standort</string>
   <string name="location_neighborhood_level">Apps dürfen meinen Standort mit dem Google-Standortdienst schneller bestimmen. Anonyme Standortdaten werden erfasst und an Google gesendet.</string>
+  <string name="update_icon_pack_available">Für das Symbolpaket ist eine Aktualisierung verfügbar</string>
+  <string name="apply_icon_pack">Anwenden</string>
 </resources>

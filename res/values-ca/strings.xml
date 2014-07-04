@@ -25,6 +25,8 @@
   <string name="create">Crea</string>
   <string name="login">Entra</string>
   <string name="ok">D\'acord</string>
+  <string name="existing">Existent</string>
+  <string name="new_account">Nou</string>
   <string name="skip_anyway">Salta de totes maneres</string>
   <string name="dont_skip">No saltis</string>
   <string name="setup_complete">Configuració completa</string>
@@ -58,4 +60,6 @@
   <string name="location_street_level" product="default">Permet a les apps utilitzar el GPS del telèfon per fixar la teva ubicació</string>
   <string name="location_network_based">Ubicacions Wi-Fi i de xarxa mòbil</string>
   <string name="location_neighborhood_level">Permet a les apps utilitzar el servei d\'ubicacions de Google per calcular més ràpid la teva ubicació. Dades d\'ubicació anonòmines seran recollides i enviades a Google.</string>
+  <string name="update_icon_pack_available">Hi ha disponible un paquet d\'icones actualitzat</string>
+  <string name="apply_icon_pack">Aplica</string>
 </resources>

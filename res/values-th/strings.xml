@@ -25,7 +25,6 @@
   <string name="create">สร้าง</string>
   <string name="login">เข้าสู่ระบบ</string>
   <string name="ok">ตกลง</string>
-  <string name="or">หรือ</string>
   <string name="existing">ที่มีอยู่</string>
   <string name="new_account">ใหม่</string>
   <string name="skip_anyway">ข้ามไปเลย</string>
@@ -45,7 +44,9 @@
   <string name="setup_msg_no_network">คำเตือน:  คุณไม่สามารถตั้งค่าบัญชีของคุณได้</string>
   <string name="setup_warning_skip_wifi" product="tablet">คำเตือน: การกระทำนี้อาจมีค่าใช้จ่าย\n\n\nการตั้งค่าแท็บเล็ตต้องการทำกิจกรรมบนอินเตอร์เน็ต</string>
   <string name="setup_warning_skip_wifi" product="default">คำเตือน: การกระทำนี้อาจมีค่าใช้จ่าย\n\n\nการตั้งค่าโทรศัพท์มือถือต้องการทำกิจกรรมบนอินเตอร์เน็ต</string>
+  <string name="setup_privacy">การตั้งค่าความเป็นส่วนตัว</string>
   <string name="setup_personalization">ตั้งค่าส่วนบุคคล</string>
+  <string name="setup_finalizing">กำลังเสร็จสิ้นการตั้งค่า\u2026</string>
   <string name="sim_missing_summary" product="tablet">คุณจำเป็นต้องดูที่คำแนะนำซิมการ์ดที่มาพร้อมกับแท็บเล็ต</string>
   <string name="sim_missing_summary" product="default">คุณจำเป็นต้องดูที่คำแนะนำซิมการ์ดที่มาพร้อมกับมือถือ</string>
   <string name="google_account_summary">คุณต้องการตั้งค่า บัญชี Google ไหม?</string>
@@ -60,4 +61,6 @@
   <string name="location_street_level" product="default">อนุญาตให้ใช้ GPS บนโทรศัพท์มือถือ เพื่อหาตำแหน่งของคุณ</string>
   <string name="location_network_based">Wi-Fi &amp; เครือข่ายมือถือ</string>
   <string name="location_neighborhood_level">อนุญาตให้ใช้ Google\'s location service เพื่อเข้าถึงตำแหน่งของคุณได้เร็วขึ้น ข้อมูลที่อยู่แบบไม่ระบุตัวต้นจะถูกเก็บและส่งไปยัง Google</string>
+  <string name="update_icon_pack_available">มีรุ่นปรับปรุงของชุดไอคอนใหม่</string>
+  <string name="apply_icon_pack">นำไปใช้</string>
 </resources>

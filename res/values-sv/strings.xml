@@ -25,6 +25,8 @@
   <string name="create">Skapa</string>
   <string name="login">Logga in</string>
   <string name="ok">OK</string>
+  <string name="existing">Befintligt</string>
+  <string name="new_account">Nytt</string>
   <string name="skip_anyway">Hoppa över ändå</string>
   <string name="dont_skip">Hoppa inte över</string>
   <string name="setup_complete">Konfigurationen är klar</string>
@@ -42,10 +44,15 @@
   <string name="setup_msg_no_network">VARNING: Du kommer inte ha möjlighet att ställa in dina konton</string>
   <string name="setup_warning_skip_wifi" product="tablet">VARNING: Detta kan medföra extra datakostnader.\n\nKonfigurationen av surfplattan kan kräva en betydande mängd datatrafik.</string>
   <string name="setup_warning_skip_wifi" product="default">VARNING: Detta kan medföra extra datakostnader.\n\nKonfigurationen av telefonen kan kräva en betydande mängd datatrafik.</string>
+  <string name="setup_privacy">Integritetsinställningar</string>
+  <string name="setup_personalization">Anpassa</string>
+  <string name="setup_finalizing">Slutför inställningar\u2026</string>
   <string name="sim_missing_summary" product="tablet">Du måste vända dig till instruktionerna för SIM-kortet som följde med din surfplatta.</string>
   <string name="sim_missing_summary" product="default">Du måste vända dig till instruktionerna för SIM-kortet som följde med din telefon.</string>
   <string name="google_account_summary">Vill du skapa ett Googlekonto?</string>
   <string name="btn_google_account">Konfigurera Googlekonto</string>
+  <string name="apply_default_theme_title">Använd MoKee OpenSource tema</string>
+  <string name="use_nav_keys">Använd knappar på skärmen</string>
   <string name="location_access_title">Ge åtkomst till min plats</string>
   <string name="location_access_summary">Tillåt appar som har bett om tillstånd att använda din platsinformation</string>
   <string name="location_sources_heading">Platskällor</string>
@@ -54,4 +61,6 @@
   <string name="location_street_level" product="default">Tillåt appar att använda GPS på din telefon för att fastställa din plats</string>
   <string name="location_network_based">Plats från Wi-Fi &amp; mobilnätverk</string>
   <string name="location_neighborhood_level">Tillåt appar att använda Googles platstjänst för att uppskatta din plats snabbare. Anonym platsinformation samlas in och skickas till Google.</string>
+  <string name="update_icon_pack_available">Ett uppdaterat ikonpaket finns tillgängligt</string>
+  <string name="apply_icon_pack">Tillämpa</string>
 </resources>

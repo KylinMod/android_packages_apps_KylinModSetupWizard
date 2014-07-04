@@ -42,6 +42,7 @@
   <string name="setup_msg_no_network">UPOZORENJE: Nećete biti u mogućnosti postaviti račune</string>
   <string name="setup_warning_skip_wifi" product="tablet">UPOZORENJE: Možete iskusiti dodatne mrežne troškove.\n\nPostavka tableta može zahtijevati značajne mrežne aktivnosti.</string>
   <string name="setup_warning_skip_wifi" product="default">UPOZORENJE: Možete iskusiti dodatne troškove nosača podataka.\n\nPostavka telefona može zahtijevati značajne mrežne aktivnosti.</string>
+  <string name="setup_privacy">Postavke Privatnosti</string>
   <string name="sim_missing_summary" product="tablet">Pogledajte upute za SIM karticu koje su došle sa vašim tabletom.</string>
   <string name="sim_missing_summary" product="default">Pogledajte upute za SIM karticu koje su došle sa vašim telefonom.</string>
   <string name="google_account_summary">Želite li postaviti Google račun?</string>

@@ -52,6 +52,7 @@
     <string name="setup_msg_no_network">WARNING: You won\'t be able to set up your accounts</string>
     <string name="setup_warning_skip_wifi" product="tablet">WARNING: You may incur extra carrier data charges.\n\nTablet setup can require significant network activity.</string>
     <string name="setup_warning_skip_wifi" product="default">WARNING: You may incur extra carrier data charges.\n\nPhone setup can require significant network activity.</string>
+    <string name="setup_privacy">Privacy Settings</string>
     <string name="setup_personalization">Personalize</string>
     <string name="setup_finalizing">Finalizing setup\u2026</string>
 
@@ -59,7 +60,7 @@
     <string name="sim_missing_summary" product="default">You need to refer to the SIM card instructions that came with your phone.</string>
     <string name="google_account_summary">Do you want to set up a Google account?</string>
     <string name="btn_google_account">Set up Google account</string>
-    <string name="apply_default_theme_title">Use KylinMod OpenSource’s Look</string>
+    <string name="apply_default_theme_title">Use KylinMod OpenSource’s theme</string>
     <string name="use_nav_keys">Use on-screen keys</string>
 
     <string name="location_access_title">Access to my location</string>
@@ -70,4 +71,6 @@
     <string name="location_street_level" product="default">Allow apps to use GPS on your phone to pinpoint your location</string>
     <string name="location_network_based">Wi-Fi &amp; mobile network location</string>
     <string name="location_neighborhood_level">Allow apps to use Google\'s location service to estimate your location faster. Anonymous location data will be collected and sent to Google.</string>
+    <string name="update_icon_pack_available">An updated icon pack is available</string>
+    <string name="apply_icon_pack">Apply</string>
 </resources>

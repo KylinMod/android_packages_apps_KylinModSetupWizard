@@ -19,7 +19,7 @@ package com.kylinmod.setupwizard.setup;
 import android.app.Fragment;
 import android.content.Context;
 import android.content.pm.ThemeUtils;
-import android.content.res.CustomTheme;
+import android.content.res.ThemeConfig;
 import android.graphics.ColorFilter;
 import android.graphics.ColorMatrix;
 import android.graphics.ColorMatrixColorFilter;
@@ -86,6 +86,9 @@ public class PersonalizationPage extends Page {
                 ViewGroup themeLayout = (ViewGroup) mRootView.findViewById(R.id.apply_default_theme);
                 if (themeLayout != null) {
                     themeLayout.setVisibility(View.GONE);
+                }
+                if (mSwitcher != null) {
+                    mSwitcher.setVisibility(View.GONE);
                 }
             } else {
                 defaultThemeSwitch.setChecked(true);
@@ -176,7 +179,7 @@ public class PersonalizationPage extends Page {
     }
 
     protected static boolean hideThemeSwitch(Context context) {
-        return ThemeUtils.getDefaultThemePackageName(context) == CustomTheme.HOLO_DEFAULT;
+        return ThemeUtils.getDefaultThemePackageName(context).equals(ThemeConfig.HOLO_DEFAULT);
     }
 
     public static boolean skipPage(Context context) {

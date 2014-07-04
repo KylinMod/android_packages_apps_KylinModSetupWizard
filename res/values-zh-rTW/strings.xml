@@ -26,10 +26,13 @@
   <string name="create">建立</string>
   <string name="login">登入</string>
   <string name="ok">確定</string>
-  <string name="skip_anyway">略過</string>
+  <string name="existing">現有帳戶</string>
+  <string name="new_account">新增帳戶</string>
+  <string name="skip_anyway">依要略過</string>
   <string name="dont_skip">不要略過</string>
   <string name="setup_complete">設定已完成</string>
-  <string name="setup_complete_summary">恭喜！您的裝置已準備翻滾一番。</string>
+  <string name="setup_complete_summary" product="tablet">恭喜！你的平板電腦已準備翻滾一番。</string>
+  <string name="setup_complete_summary" product="default">恭喜！你的手機已準備翻滾一番。</string>
   <string name="setup_welcome">歡迎使用 KylinMod OpenSource</string>
   <string name="setup_welcome_summary" product="tablet">若要開始設定您的平板電腦，請選擇您的語言然後繼續。</string>
   <string name="setup_welcome_summary" product="default">若要開始設定您的手機，請選擇您的語言然後繼續。</string>
@@ -42,6 +45,7 @@
   <string name="setup_msg_no_network">警告：您將無法設定您的帳戶</string>
   <string name="setup_warning_skip_wifi" product="tablet">警告：您可能需支付額外的數據傳輸費用。\n\n平板電腦設定程序可能需要佔用大量的網路流量。</string>
   <string name="setup_warning_skip_wifi" product="default">警告：您可能需支付額外的數據傳輸費用。\n\n手機設定程序可能需要佔用大量的網路流量。</string>
+  <string name="setup_privacy">隱私設定</string>
   <string name="setup_personalization">個人化</string>
   <string name="setup_finalizing">設定即將完成\u2026</string>
   <string name="sim_missing_summary" product="tablet">您需要參照平板電腦附帶的 SIM 卡說明。</string>
@@ -58,4 +62,5 @@
   <string name="location_street_level" product="default">允許應用程式使用手機的 GPS 找出您的精確位置</string>
   <string name="location_network_based">Wi-Fi 與行動網路位置</string>
   <string name="location_neighborhood_level">允許應用程式使用 Google 的定位服務加速判斷您的約略位置。系統會收集匿名的位置資料並傳送給 Google。</string>
+  <string name="apply_icon_pack">套用</string>
 </resources>

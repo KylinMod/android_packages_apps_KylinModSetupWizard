@@ -26,6 +26,8 @@
   <string name="create">建立</string>
   <string name="login">登入</string>
   <string name="ok">確定</string>
+  <string name="existing">現有帳戶</string>
+  <string name="new_account">新增帳戶</string>
   <string name="skip_anyway">無論如何跳過</string>
   <string name="dont_skip">不要略過</string>
   <string name="setup_complete">設定已完成</string>
@@ -43,6 +45,7 @@
   <string name="setup_msg_no_network">警告：你將無法設定你的帳戶</string>
   <string name="setup_warning_skip_wifi" product="tablet">警告：你可能需支付額外的數據傳輸費用。\n\n平板電腦設定程式可能需要佔用大量網絡流量。</string>
   <string name="setup_warning_skip_wifi" product="default">警告：你可能需支付額外的數據傳輸費用。\n\n電話設定程式可能需要佔用大量網絡流量。</string>
+  <string name="setup_privacy">私隱設定</string>
   <string name="setup_personalization">個人化</string>
   <string name="setup_finalizing">正在最終確定設定\u2026</string>
   <string name="sim_missing_summary" product="tablet">你需要參考平板電腦附帶的 SIM 卡說明。</string>
@@ -59,4 +62,6 @@
   <string name="location_street_level" product="default">允許應用程式使用電話的 GPS 指出您的精確位置</string>
   <string name="location_network_based">Wi-Fi 與流動網絡位置</string>
   <string name="location_neighborhood_level">允許應用程式使用 Google 的定位服務來加速估算你的位置。匿名位置數據將被收集並傳送至 Google。</string>
+  <string name="update_icon_pack_available">更新的圖標包現已提供</string>
+  <string name="apply_icon_pack">套用</string>
 </resources>

@@ -44,6 +44,7 @@
   <string name="setup_msg_no_network">VAROITUS: Et pysty asettamaan käyttäjätilejäsi</string>
   <string name="setup_warning_skip_wifi" product="tablet">VAROITUS: Ylimääräisiä tiedonsiirtokuluja voi syntyä,\n\nTabletin asennus voi tarvita huomattavasti verkkoyhteyttä.</string>
   <string name="setup_warning_skip_wifi" product="default">VAROITUS: Ylimääräisiä tiedonsiirtokuluja voi syntyä,\n\nPuhelimen asennus voi tarvita huomattavasti verkkoyhteyttä.</string>
+  <string name="setup_privacy">Tietosuoja</string>
   <string name="setup_personalization">Mukauta</string>
   <string name="setup_finalizing">Viimeistellään asennusta\u2026</string>
   <string name="sim_missing_summary" product="tablet">Sinun tulee tutustua tabletin mukana tulleisiin ohjeisiin SIM-kortin asettamiseksi.</string>
@@ -60,4 +61,6 @@
   <string name="location_street_level" product="default">Salli sovellusten käyttää puhelimesi GPS:ää paikantaaksesi sijaintisi</string>
   <string name="location_network_based">Wi-Fi &amp; mobiiliverkot</string>
   <string name="location_neighborhood_level">Salli sovellusten käyttää Googlen paikannuspalvelua paikantaaksesi sijaintisi nopeammin. Nimettömän sijaintitiedot lähetetään Googlelle.</string>
+  <string name="update_icon_pack_available">Päivitetty kuvakepaketti saatavilla</string>
+  <string name="apply_icon_pack">Ota käyttöön</string>
 </resources>

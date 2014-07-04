@@ -44,6 +44,7 @@
   <string name="setup_msg_no_network">УВАГА: Ви не зможете налаштувати свої обл. записи</string>
   <string name="setup_warning_skip_wifi" product="tablet">УВАГА: Ви можете понести додаткові витрати.\n\nНалаштування планшету може потребувати значну мережеву активність.</string>
   <string name="setup_warning_skip_wifi" product="default">УВАГА: Ви можете понести додаткові витрати.\n\nНалаштування телефону може потребувати значну мережеву активність.</string>
+  <string name="setup_privacy">Конфіденційність</string>
   <string name="setup_personalization">Персоналізація</string>
   <string name="sim_missing_summary" product="tablet">Зверніться до інструкції по встановленні SIM-карти для вашого планшета.</string>
   <string name="sim_missing_summary" product="default">Зверніться до інструкції по встановленні SIM-карти для вашого телефону.</string>
