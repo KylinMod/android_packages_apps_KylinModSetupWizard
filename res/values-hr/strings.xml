@@ -25,6 +25,8 @@
   <string name="create">Izradi</string>
   <string name="login">Prijavi se</string>
   <string name="ok">U redu</string>
+  <string name="existing">Postojeći</string>
+  <string name="new_account">Nova</string>
   <string name="skip_anyway">Svejedno preskoči</string>
   <string name="dont_skip">Ne preskači</string>
   <string name="setup_complete">Postavka je završena</string>
@@ -36,23 +38,29 @@
   <string name="setup_sim_missing">Umetnite SIM karticu</string>
   <string name="setup_google_account">Google račun</string>
   <string name="setup_location">Postavke lokacije</string>
-  <string name="setup_datetime">Datum &amp; postavke vremena.</string>
+  <string name="setup_datetime">Postavke datuma i vremena</string>
   <string name="setup_current_date">Današnji datum</string>
   <string name="setup_current_time">Trenutno vrijeme</string>
   <string name="setup_msg_no_network">UPOZORENJE: Nećete biti u mogućnosti postaviti račune</string>
   <string name="setup_warning_skip_wifi" product="tablet">UPOZORENJE: Možete iskusiti dodatne mrežne troškove.\n\nPostavka tableta može zahtijevati značajne mrežne aktivnosti.</string>
   <string name="setup_warning_skip_wifi" product="default">UPOZORENJE: Možete iskusiti dodatne troškove nosača podataka.\n\nPostavka telefona može zahtijevati značajne mrežne aktivnosti.</string>
   <string name="setup_privacy">Postavke Privatnosti</string>
+  <string name="setup_personalization">Osobne postavke</string>
+  <string name="setup_finalizing">Dovršavanje postavljanja\u2026</string>
   <string name="sim_missing_summary" product="tablet">Pogledajte upute za SIM karticu koje su došle sa vašim tabletom.</string>
   <string name="sim_missing_summary" product="default">Pogledajte upute za SIM karticu koje su došle sa vašim telefonom.</string>
   <string name="google_account_summary">Želite li postaviti Google račun?</string>
   <string name="btn_google_account">Postavi Google račun</string>
+  <string name="apply_default_theme_title">Koristi MoKee OpenSource temu</string>
+  <string name="use_nav_keys">Koristi virtualne navigacijske tipke</string>
   <string name="location_access_title">Pristup mojoj lokaciji</string>
   <string name="location_access_summary">Dozvoli pristup vašoj lokaciji aplikacijama koje imaju vaše odobrenje</string>
   <string name="location_sources_heading">Izvori lokacije</string>
   <string name="location_gps">GPS sateliti</string>
   <string name="location_street_level" product="tablet">Dozvoli aplikacijama da koriste GPS na vašem tabletu za određivanje lokacije</string>
   <string name="location_street_level" product="default">Dozvoli aplikacijama da koriste GPS na vašem uređaju za određivanje lokacije</string>
-  <string name="location_network_based">Wi-Fi &amp; lokacija pomoću mobilne mreže</string>
+  <string name="location_network_based">Lokacija pomoću WiFi-a i mobilne mreže</string>
   <string name="location_neighborhood_level">Dozvoli aplikacijama korištenje Google-ove lokacijske usluge za bržu procjenu vaše lokacije. Anonimni podaci o lokaciji će se prikupljati i slati Google-u.</string>
+  <string name="update_icon_pack_available">Ažurirani paket ikona je dostupan</string>
+  <string name="apply_icon_pack">Primjeni</string>
 </resources>
