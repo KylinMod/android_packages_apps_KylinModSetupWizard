@@ -41,7 +41,7 @@
   <string name="setup_datetime">Dátum &amp; Idő beállítások</string>
   <string name="setup_current_date">Aktuális dátum</string>
   <string name="setup_current_time">Aktuális idő</string>
-  <string name="setup_msg_no_network">FIGYELEM: Nem fogja tudni állítani a fiókokat</string>
+  <string name="setup_msg_no_network">FIGYELEM: Nem fogja tudni beállítani a fiókokat</string>
   <string name="setup_warning_skip_wifi" product="tablet">FIGYELEM: Lehet, hogy jelentős összeget számítanak fel érte!\n\nA táblagép beállítása nagyobb hálózati forgalmat igényel.</string>
   <string name="setup_warning_skip_wifi" product="default">FIGYELEM: Lehet, hogy jelentős összeget számítanak fel érte!\n\nA telefon beállítása nagyobb hálózati forgalmat igényel.</string>
   <string name="setup_privacy">Adatvédelmi beállítások</string>
