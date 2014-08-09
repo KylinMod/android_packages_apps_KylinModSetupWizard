@@ -34,7 +34,7 @@
   <string name="setup_complete_summary" product="default">おめでとうございます！ お使いの携帯電話を楽しむ準備ができました。</string>
   <string name="setup_welcome">KylinMod OpenSourceへようこそ</string>
   <string name="setup_welcome_summary" product="tablet">タブレットのセットアップを開始するには、言語を選択して続けてください。</string>
-  <string name="setup_welcome_summary" product="default">携帯電話のセットアップを開始するには、言語を選択して「次へ」をタップしてください。</string>
+  <string name="setup_welcome_summary" product="default">携帯電話のセットアップを開始するには、言語を選択して続けてください。</string>
   <string name="setup_sim_missing">SIMカードを挿入してください</string>
   <string name="setup_google_account">Googleアカウント</string>
   <string name="setup_location">位置情報の設定</string>
@@ -42,8 +42,8 @@
   <string name="setup_current_date">現在の日付</string>
   <string name="setup_current_time">現在の時刻</string>
   <string name="setup_msg_no_network">警告: アカウントをセットアップできません</string>
-  <string name="setup_warning_skip_wifi" product="tablet">警告: 追加のパケット通信料が発生する可能性があります。\n\nタブレットのセットアップにはネットワークアクティビティが要求されます。</string>
-  <string name="setup_warning_skip_wifi" product="default">警告: 追加のパケット通信料が発生する可能性があります。\n\n携帯電話のセットアップにはネットワークアクティビティが要求されます。</string>
+  <string name="setup_warning_skip_wifi" product="tablet">警告: 追加のパケット通信料が発生する可能性があります。\n\nタブレットのセットアップにはネットワークアクティビティが必要です。</string>
+  <string name="setup_warning_skip_wifi" product="default">警告: 追加のパケット通信料が発生する可能性があります。\n\n携帯電話のセットアップにはネットワークアクティビティが必要です。</string>
   <string name="setup_privacy">プライバシーの設定</string>
   <string name="setup_personalization">パーソナライズ</string>
   <string name="setup_finalizing">セットアップを終了中\u2026</string>
@@ -54,12 +54,12 @@
   <string name="apply_default_theme_title">KylinMod OpenSourceのテーマを使用</string>
   <string name="use_nav_keys">オンスクリーンキーを使用</string>
   <string name="location_access_title">位置情報にアクセス</string>
-  <string name="location_access_summary">位置情報の使用をアプリに許可する</string>
-  <string name="location_sources_heading">位置情報源</string>
+  <string name="location_access_summary">位置情報を使用する権限を要求したことのあるアプリを許可する</string>
+  <string name="location_sources_heading">位置情報のソース</string>
   <string name="location_gps">GPS衛星</string>
   <string name="location_street_level" product="tablet">現在地を特定するためにタブレットのGPSの使用をアプリに許可する</string>
   <string name="location_street_level" product="default">現在地を特定するために携帯電話のGPSの使用をアプリに許可する</string>
-  <string name="location_network_based">Wi-Fiとモバイルネットワーク</string>
+  <string name="location_network_based">Wi-Fiとモバイルネットワークの位置情報</string>
   <string name="location_neighborhood_level">現在地を高速に推定するためにGoogleの位置情報サービスの使用をアプリに許可します。匿名化された現在地データがGoogleに収集および送信されます。</string>
   <string name="update_icon_pack_available">アップデートされたアイコンパックが利用可能です</string>
   <string name="apply_icon_pack">適用</string>
