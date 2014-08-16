@@ -22,6 +22,8 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Bundle;
+import android.os.UserManager;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.wifi.WifiManager;
@@ -64,6 +66,12 @@ public class KMAccountUtils {
         ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = connectivityManager.getActiveNetworkInfo();
         return networkInfo != null && networkInfo.isConnected();
+    }
+
+    public static boolean isUnableToModifyAccounts(Context context) {
+        UserManager um = (UserManager) context.getSystemService(Context.USER_SERVICE);
+        Bundle restrictions = um.getUserRestrictions();
+        return restrictions.getBoolean(UserManager.DISALLOW_MODIFY_ACCOUNTS, false);
     }
 
 }
